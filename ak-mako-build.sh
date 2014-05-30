@@ -10,7 +10,7 @@ clear
 
 # AK Kernel Version
 BASE_AK_VER="AK"
-VER=".258.EXODUS.MAKO.CM"
+VER=".268.EXODUS.MAKO.CM"
 AK_VER=$BASE_AK_VER$VER
 
 # AK Variables
