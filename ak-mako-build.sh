@@ -41,14 +41,14 @@ echo "Show: AK Mako Settings"
 echo "------------------------"
 echo -e "${restore}"
 
-MODULES_DIR=${HOME}/android/AK-anykernel/cwm/system/lib/modules
+MODULES_DIR=${HOME}/android/AK-Mako-AnyKernel/cwm/system/lib/modules
 KERNEL_DIR=`pwd`
-OUTPUT_DIR=${HOME}/android/AK-anykernel/zip
-CWM_DIR=${HOME}/android/AK-anykernel/cwm
+OUTPUT_DIR=${HOME}/android/AK-Mako-AnyKernel/zip
+CWM_DIR=${HOME}/android/AK-Mako-AnyKernel/cwm
 ZIMAGE_DIR=${HOME}/android/AK-xGenesis/arch/arm/boot
 CWM_MOVE=${HOME}/android/AK-releases
-ZIMAGE_ANYKERNEL=${HOME}/android/AK-anykernel/cwm/kernel
-ANYKERNEL_DIR=${HOME}/android/AK-anykernel
+ZIMAGE_ANYKERNEL=${HOME}/android/AK-Mako-AnyKernel/cwm/kernel
+ANYKERNEL_DIR=${HOME}/android/AK-Mako-AnyKernel
 
 echo -e "${red}"; echo "COMPILING VERSION:"; echo -e "${blink_red}"; echo "$LOCALVERSION"; echo -e "${restore}"
 echo "CROSS_COMPILE="$CROSS_COMPILE
